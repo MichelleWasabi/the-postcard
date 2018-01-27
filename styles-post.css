@@ -1,0 +1,73 @@
+body {
+    background-color: #171717;
+    font-family: 'Handlee', cursive;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+#mainContainer {
+    width: 500px;
+    height: 350px;
+    padding: 12px;
+    background-color: #fff;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    
+  
+}
+
+#theHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+#theHeader img {
+    width: 70px;
+    height: 70px;
+}
+
+#theMiddle {
+   display: flex;
+   
+}
+.leftSide{
+    width: 50%;
+    font-size: 21px;
+    line-height: 24px;
+}
+.rightSide {
+      width: 50%;
+     
+      
+}
+
+input {
+    width: 220px;
+    margin: 10px 20px;
+    border: 0px;
+    border-bottom: 1px #808080 solid;
+    font-size: 19px;
+    font-family: 'Handlee' , cursive;
+}
+
+.infoLine {
+    color: gray;
+}
+
+#theFooter {
+    text-align: center;
+    
+}
+
+
+.submitButton {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    width: 160px;
+    color: buttontext;
+    
+  
+}
